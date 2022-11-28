@@ -1,12 +1,13 @@
-package com.amida.hello;
+package com.amida;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HelloApplication {
+public class H2Application {
+
 	public static void main(String[] args) {
-		SpringApplication.run(HelloApplication.class, args);
+		SpringApplication.run(H2Application.class, args);
 	}
 
 }
