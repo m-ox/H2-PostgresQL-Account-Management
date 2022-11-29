@@ -22,16 +22,8 @@ public class MockAccountGenerateService {
         Account account1=  Account.builder()
                 .id(accountIdGenerationService.newAccountId())
                 .balance(new BigDecimal(100))
-                .name("Berkay account")
+                .name("Oxalis account")
                 .build();
         accountRepository.save(account1);
-
-        Account account2=  Account.builder()
-                .id(accountIdGenerationService.newAccountId())
-                .balance(new BigDecimal(100))
-                .name("Test account")
-                .build();
-
-        accountRepository.save(account2);
     }
 }
