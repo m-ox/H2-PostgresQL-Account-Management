@@ -6,6 +6,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "employees")
@@ -23,7 +24,8 @@ public class Employee {
 	}
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(generator="YOUR_SEQ",strategy=GenerationType.SEQUENCE)
+	@NotNull
 	public long getId() {
 		return id;
 	}
