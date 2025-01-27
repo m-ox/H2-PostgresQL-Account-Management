@@ -17,4 +17,4 @@ Things it does not feature:
 - wow java devs really be annotation devs lmaoo
 
 ## In Conclusion
-It is 2025. I have finished the Java project for the company. I am now a full fledged senior Springboot annotation dev. My review of this boilerplate project? Yo, it kinda sucks. I don't actually code like this. Who did this? Not me. Some noob lost in the stack overflow forums clearly. I might get around to updating this repo, but at least this thing has a README. B)
+It is 2025. I have finished the Java project for the company. I am now a full fledged senior Springboot annotation dev. My review of this boilerplate project? Yo, it kinda sucks. I don't actually code like this. Who did this? Not me. Some noob lost in the stack overflow forums clearly. I might get around to updating this repo, but at least this thing has a README. B) Oh, and I went back to the frontend and I already miss static typing. Go figure... but do not recomment TS to me. kthxbai
